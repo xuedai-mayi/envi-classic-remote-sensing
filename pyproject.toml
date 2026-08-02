@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envi-classic-mcp"
+version = "0.3.0"
+description = "A constrained MCP server for ENVI Classic 5.6 automation with hashed teacher inputs, frozen stage plans, and report evidence capture."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=2.0,<3",
+  "Pillow>=10,<13",
+  "pydantic>=2.8,<3"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: GIS"
+]
+
+[project.optional-dependencies]
+dev = [
+  "PyYAML>=6,<7",
+  "pytest>=8,<10",
+  "pytest-asyncio>=0.24,<2"
+]
+
+[project.scripts]
+envi-classic-mcp = "envi_classic_mcp.server:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

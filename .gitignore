@@ -1,0 +1,35 @@
+.venv/
+.envi-runs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Local experiment material and generated reports must never be published.
+data/
+teacher-data/
+private/
+outputs/
+reports/
+benchmark/
+*.doc
+*.docx
+*.pdf
+*.sav
+*.dat
+*.hdr
+*.img
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Editor and OS noise.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

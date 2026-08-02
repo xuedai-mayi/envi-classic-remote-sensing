@@ -1,0 +1,37 @@
+{
+  "name": "envi-classic-remote-sensing",
+  "version": "0.3.0",
+  "description": "Automate ENVI Classic 5.6 experiments with frozen step plans, original screenshot evidence, and template-based remote-sensing reports.",
+  "author": {
+    "name": "ENVI Classic Remote Sensing contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "envi-classic",
+    "remote-sensing",
+    "experiment-report",
+    "mcp",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ENVI Classic 遥感实验自动化",
+    "shortDescription": "实机执行 ENVI、逐步原始截图并生成遥感实验报告。",
+    "longDescription": "面向 ENVI Classic 5.6（64 位）的本地自动化插件。它登记老师的数据、指导书和模板，在截图前冻结步骤计划，通过受限的 Windows 菜单与窗口操作执行实验，为每一步保存原始截图及哈希，证据完整后按老师模板生成 Word/PDF 报告。",
+    "developerName": "ENVI Classic Remote Sensing contributors",
+    "category": "Education",
+    "capabilities": [
+      "ENVI Classic 5.6 GUI automation",
+      "Frozen experiment stage plans",
+      "Original screenshot evidence with SHA-256",
+      "Template-based DOCX/PDF reporting"
+    ],
+    "defaultPrompt": [
+      "按指导书完成 ENVI 实验，逐步保存原始截图并生成 Word/PDF。",
+      "检查本机 ENVI Classic 5.6 和 MCP 是否可用。",
+      "用老师模板和已验真证据生成遥感实验报告。"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

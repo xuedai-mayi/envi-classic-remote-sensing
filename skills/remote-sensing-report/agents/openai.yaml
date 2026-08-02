@@ -1,0 +1,4 @@
+interface:
+  display_name: "遥感实验报告撰写"
+  short_description: "按老师模板和原始截图生成可复现的中文遥感实验 Word/PDF 报告"
+  default_prompt: "使用 $remote-sensing-report 将实验指导、模板和原始证据整理成 Word/PDF 报告。"

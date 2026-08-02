@@ -1,0 +1,4 @@
+interface:
+  display_name: "ENVI Classic 实验自动化"
+  short_description: "按指导书实机执行 ENVI、逐步原始截图并固化证据"
+  default_prompt: "使用 $envi-classic-lab-automation 按老师指导书完成本次实验并生成可核验报告。"
