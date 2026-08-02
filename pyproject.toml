@@ -23,6 +23,11 @@ classifiers = [
   "Topic :: Scientific/Engineering :: GIS"
 ]
 
+[project.urls]
+Homepage = "https://github.com/xuedai-mayi/envi-classic-remote-sensing"
+Repository = "https://github.com/xuedai-mayi/envi-classic-remote-sensing"
+Issues = "https://github.com/xuedai-mayi/envi-classic-remote-sensing/issues"
+
 [project.optional-dependencies]
 dev = [
   "PyYAML>=6,<7",

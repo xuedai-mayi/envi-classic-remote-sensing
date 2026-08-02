@@ -41,7 +41,7 @@ flowchart LR
 ## 本地安装
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/xuedai-mayi/envi-classic-remote-sensing.git
 Set-Location .\envi-classic-remote-sensing
 powershell.exe -ExecutionPolicy Bypass -File .\scripts\setup.ps1 -Dev
 ```
