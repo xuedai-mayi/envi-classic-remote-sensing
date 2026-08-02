@@ -86,6 +86,10 @@ my-experiment/
 
 更完整的设计与证据格式见 [docs/architecture.md](docs/architecture.md) 和 [docs/evidence-contract.md](docs/evidence-contract.md)。
 
+## 期末复习资料
+
+仓库额外收录了“遥感数字图像处理”课程的两份期末资料，见 [final-exam-materials](final-exam-materials/README.md)。这些文件不参与 MCP 安装或运行。
+
 ## 开发与贡献
 
 请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。严禁向 issue、PR 或提交记录上传课程数据、个人信息、截图、报告成品和 ENVI 安装文件。

@@ -19,6 +19,8 @@ benchmark/
 *.doc
 *.docx
 *.pdf
+!final-exam-materials/
+!final-exam-materials/*.pdf
 *.sav
 *.dat
 *.hdr
