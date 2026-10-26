@@ -1,4 +1,4 @@
-# ENVI Classic 遥感实验自动化
+# ENVI Classic MCP
 
 ## 能力组成
 
